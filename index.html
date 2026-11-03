@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kirill Kriger — Data Engineer</title>
+  <meta name="description" content="Kirill Kriger, Data Engineer based in Israel. CV, contacts and projects.">
+  <meta name="theme-color" content="#fafaf7">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+
+    <header class="hero">
+      <div class="avatar" id="avatar" aria-hidden="true">
+        <img src="assets/photo.jpg" alt="Kirill Kriger" width="160" height="160"
+             onerror="this.onerror=null;this.src='assets/photo-placeholder.svg'">
+      </div>
+      <h1>Kirill Kriger</h1>
+      <p class="role">Data Engineer</p>
+      <p class="meta">Israel · Israeli citizen, authorized to work · Hybrid, onsite or remote</p>
+
+      <nav class="actions" aria-label="Primary">
+        <a class="btn primary" href="assets/Kirill_Kriger_CV.pdf" download>Download CV (PDF)</a>
+        <a class="btn" href="mailto:name@example.com">Email</a>
+        <a class="btn" href="tel:+972500000000">+972-50-000-0000</a>
+      </nav>
+    </header>
+
+    <section class="links" aria-label="Contacts">
+      <a href="https://github.com/your-username" rel="me noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/your-profile" rel="me noopener">LinkedIn</a>
+      <a href="https://t.me/your_username" rel="me noopener">Telegram</a>
+      <a href="https://wa.me/972500000000" rel="me noopener">WhatsApp</a>
+    </section>
+
+    <section class="about">
+      <h2>At a glance</h2>
+      <ul class="facts">
+        <li><strong>4+ years</strong> in Python, data and infrastructure</li>
+        <li><strong>YTsaurus</strong> / MapReduce / SQL on tables up to ~50 TB</li>
+        <li><strong>Data Archivator</strong>: ~20% less object quota usage</li>
+        <li><strong>Languages:</strong> English, Russian (native), Hebrew (learning)</li>
+      </ul>
+    </section>
+
+    <section class="cv" aria-labelledby="cv-title">
+      <h2 id="cv-title">Curriculum Vitae</h2>
+      <article id="cv" class="md" aria-live="polite">
+        <p class="muted">Loading CV…</p>
+      </article>
+    </section>
+
+    <footer>
+      <span>© <span id="year"></span> Kirill Kriger</span>
+      <a href="#top" class="to-top">Back to top ↑</a>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
