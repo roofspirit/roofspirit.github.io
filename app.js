@@ -20,6 +20,6 @@
     })
     .catch(function () {
       el.innerHTML = '<p class="muted">Could not load the CV. ' +
-        '<a href="assets/Kirill_Kriger_CV.pdf">Open the PDF version</a>.</p>';
+        '<a href="assets/Kirill_Kriger_Data_Engineer_CV.pdf">Open the PDF version</a>.</p>';
     });
 })();
